@@ -1,17 +1,17 @@
 # Recommender_systems
 This repository contains modules related to recommendation systems.
 
-### Dataset
+## Dataset
 This dataset was created using the dataset from the 1st Kookmin University AI Big Data Analysis Competition.[link](https://dacon.io/competitions/official/236170/overview/description)
 
-### Models
+## Models
 Each model was referenced from the following website except 'Hybrid'.
 1. NeuMF : [https://supkoon.tistory.com/28](https://supkoon.tistory.com/28)
 2. MultiSAGE : [https://yamalab.tistory.com/165, 166](https://yamalab.tistory.com/165)
 3. Factorization Machine : [https://supkoon.tistory.com/31](https://supkoon.tistory.com/31)
 4. MAWU : [https://github.com/psm1206/MAWU](https://github.com/psm1206/MAWU)
 
-### Citations
+## Citations
 ```
 @inproceedings{park2023mawu,
   title={Toward a Better Understanding of Loss Functions for Collaborative Filtering},
