@@ -1,0 +1,5 @@
+embedding_size: 128
+encoder: MF
+n_layers: 8
+gamma1: 1.2
+gamma2: 0.6
