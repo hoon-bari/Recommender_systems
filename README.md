@@ -43,7 +43,7 @@ Each model was referenced from the following website except 'Hybrid'.
 @inproceedings{recbole[1.2.0],
   author = {Xu, Lanling and Tian, Zhen and Zhang, Gaowei and Zhang, Junjie and Wang, Lei and Zheng, Bowen and Li, Yifan and Tang, Jiakai and Zhang, Zeyu and Hou, Yupeng and Pan, Xingyu and Zhao, Wayne Xin and Chen, Xu and Wen, Ji-Rong},
   title = {Towards a More User-Friendly and Easy-to-Use Benchmark Library for Recommender Systems},
-```
   pages = {2837–2847},
   year = {2023}
 }
+```
