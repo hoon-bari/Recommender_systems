@@ -1,0 +1,36 @@
+# Atomic File Format
+field_separator: "\t"
+seq_separator: " "
+
+# Common Features
+USER_ID_FILED: user_id
+ITEM_ID_FIELD: item_id
+seq_len : ~
+
+NEG_PREFIX: neg_
+
+# Selectively Loading
+load_col:
+  inter : [user_id, item_id]
+  # item : [item_id, address_seq1, education, major_task, qualifications, 2101, 2102, 2103, 2104, 2105, 2106, 2107, 2108, 2109, 2110, 2111, 2112, 2113, 2114, 2199, 2201, 2202, 2203, 2204, 2205, 2206, 2299, 2302, 2303, 2306, 2310, 2315, 2316, 2320, 2501, 2502, 2503, 2504, 2505, 2506, 2507, 2599, 2602, 2603, 2604, 2605, 2701, 2703, 2705, 2706, 2707, 2799, 2805, 2807, 2810, 2914, 3005, 3006, 3007, 3008, 3099, 3101, 3102, 3103, 3105, 3199]
+  # user : [user_id, reg_date, updated_date, degree, graduate_date, hope_salary, last_salary, job_code_seq1, job_code_seq2, job_code_seq3, career_month, career_job_code, certificate_count, lang_2, lang_3, lang_4, lang_8, lang_9, hischool_type_seq, hischool_special_type, hischool_nation, hischool_gender, hischool_location_seq, univ_type_seq1, univ_type_seq2, univ_transfer, univ_location, univ_major_type, univ_score, update_reg_diff, keyword_cluster_1, keyword_cluster_2, keyword_cluster_3, keyword_cluster_4, keyword_cluster_5, keyword_cluster_6, keyword_cluster_7, keyword_cluster_8, keyword_cluster_9, keyword_cluster_10, keyword_cluster_11, keyword_cluster_12, keyword_cluster_13, keyword_cluster_14, keyword_cluster_15, keyword_cluster_16, keyword_cluster_17, keyword_cluster_18, keyword_cluster_19, keyword_cluster_20, keyword_cluster_21, keyword_cluster_22, keyword_cluster_23, keyword_cluster_24, keyword_cluster_25, keyword_cluster_26, keyword_cluster_27, keyword_cluster_28, keyword_cluster_29, keyword_cluster_30, keyword_cluster_31, keyword_cluster_32, keyword_cluster_33, keyword_cluster_34, keyword_cluster_35, keyword_cluster_36, keyword_cluster_37, keyword_cluster_38, keyword_cluster_39, keyword_cluster_40, keyword_cluster_41, keyword_cluster_42, keyword_cluster_43, keyword_cluster_44, keyword_cluster_45, keyword_cluster_46, keyword_cluster_47, keyword_cluster_48, keyword_cluster_49, keyword_cluster_50, keyword_cluster_51, keyword_cluster_52, keyword_cluster_53, keyword_cluster_54, keyword_cluster_55, keyword_cluster_56, keyword_cluster_57, keyword_cluster_58, keyword_cluster_59, keyword_cluster_60, keyword_cluster_61]
+
+unload_col: ~
+unused_col: ~
+
+# Filtering
+rm_dup_inter: ~
+val_interval: ~
+filter_inter_by_user_or_item: True
+user_inter_num_interval: ~
+item_inter_num_interval: ~
+
+# Preprocessing
+alias_of_user_id: ~
+alias_of_item_id: ~
+alias_of_entity_id: ~
+alias_of_relation_id: ~
+preload_weight: ~
+normalize_field: ~
+
+biliteral: True
