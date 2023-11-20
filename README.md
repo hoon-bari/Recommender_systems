@@ -2,7 +2,7 @@
 This repository contains modules related to recommendation systems.
 
 ## Dataset
-This dataset was created using the dataset from the 1st Kookmin University AI Big Data Analysis Competition. [\[link\]](https://dacon.io/competitions/official/236170/overview/description)
+This dataset was created using the dataset from [the 1st Kookmin University AI Big Data Analysis Competition.](https://dacon.io/competitions/official/236170/overview/description)
 
 ## Models
 Each model was referenced from the following website except 'Hybrid'.
